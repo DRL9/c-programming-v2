@@ -16,10 +16,17 @@ void e3_faq1() {
     scanf("%i", &input2);
     printf("input1 is %d, input2: is %d", input1, input2);
 
+}
 
+void e3_p_01() {
+    int y,m,d;
+    printf("Enter a date (mm/dd/yyyy):\n");
+    scanf("%d/%d/%d", &m, &d, &y);
+    printf("You entered the date %4d%2.2d%2d", y, m, d);
 }
 
 void run_e_03() {
     printf("run exercise 03\n");
-    e3_faq1();
+    // e3_faq1();
+    e3_p_01();
 }
