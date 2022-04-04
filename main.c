@@ -19,17 +19,43 @@ void foo(int m, int n) {
     p = a;
 }
 
+int count_spaces(const char *s) {
+    int count = 0;
+    while (*s != '\0') {
+        if (*s == ' ') {
+            count++;
+        }
+        s++;
+    }
+    return count;
+}
+
+char *readline2(int n) {
+    int i = 0, ch;
+    char line[n + 1];
+    char *p = line;
+    while ((ch = getchar()) != '\n') {
+        p[i] = (char) ch;
+        if (++i >= n) {
+            break;
+        }
+    }
+    p[i] = '\0';
+    printf("%s\n--", p);
+    return p;
+}
+
 int main() {
     // run_e_03();
     // run_e_04();
     // run_e_05();
     // run_e_06();
     // run_e_10();
-#define STR_LEN 10
-    char str[STR_LEN + 1];
-    printf("input str:\n");
-    readline(10, str);
-    printf("---%s---", str);
+    // printf("%d", count_spaces("  sd de"));
+    // char *p = readline2(10);
+    // printf("%s", p);
+
+    run_13();
 
     return 0;
 }
