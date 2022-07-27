@@ -1,11 +1,11 @@
-#include <stdio.h>
 #include "string.h"
+#include <stdio.h>
 #include <stdlib.h>
 
 int readline(int n, char str[n]) {
     int i = 0, ch;
     while ((ch = getchar()) != '\n') {
-        str[i] = (char) ch;
+        str[i] = (char)ch;
         if (++i >= n) {
             break;
         }
@@ -27,11 +27,10 @@ void p_18() {
     date = atoi(strncpy(tmp, p, 2));
     p += 3;
     year = atoi(strncpy(tmp, p, 4));
-    const char *months[] = {"January", "February", "March", "April", "May", "June", "July", "August", "September",
-                            "October", "November", "December"};
+    const char *months[] = {"January",   "February", "March",    "April",
+                            "May",       "June",     "July",     "August",
+                            "September", "October",  "November", "December"};
     printf("You entered the date %s %d, %d\n", months[month - 1], date, year);
 }
 
-void run_13() {
-    p_18();
-}
+void run_13() { p_18(); }

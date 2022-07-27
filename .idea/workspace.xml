@@ -18,14 +18,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60e0d83f-2997-4983-865d-572ba59b9ff0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/chapter/e_15.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter/e_15.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter/stack.c" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chapter/stack.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter/e_14.h" beforeDir="false" afterPath="$PROJECT_DIR$/chapter/e_14.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.c" beforeDir="false" afterPath="$PROJECT_DIR$/main.c" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -113,7 +106,7 @@
       <workItem from="1649037344583" duration="20978000" />
       <workItem from="1652494642049" duration="39000" />
       <workItem from="1652494687123" duration="9000" />
-      <workItem from="1657586132850" duration="3019000" />
+      <workItem from="1657586132850" duration="4222000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1626570891484</created>
